@@ -1,0 +1,5 @@
+C:/Users/VickuGu/Desktop/AlgoAPI-develop/AlgoAPI-develop/Algoapi_Linux/cmake-build-debug/CMakeFiles/algoapi.dir
+C:/Users/VickuGu/Desktop/AlgoAPI-develop/AlgoAPI-develop/Algoapi_Linux/cmake-build-debug/CMakeFiles/algospi.dir
+C:/Users/VickuGu/Desktop/AlgoAPI-develop/AlgoAPI-develop/Algoapi_Linux/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/VickuGu/Desktop/AlgoAPI-develop/AlgoAPI-develop/Algoapi_Linux/cmake-build-debug/CMakeFiles/main.dir
+C:/Users/VickuGu/Desktop/AlgoAPI-develop/AlgoAPI-develop/Algoapi_Linux/cmake-build-debug/CMakeFiles/rebuild_cache.dir

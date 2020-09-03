@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libalgospi.so -o libalgospi.so CMakeFiles/algospi.dir/AlgospiSimple.cpp.o  -L/home/jklwang/Algoapi_Linux_lib1/. 

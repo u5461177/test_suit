@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/main.dir/main.cpp.o  -o main  -L/home/jklwang/Algoapi_Linux_lib1/. -Wl,-rpath,/home/jklwang/Algoapi_Linux_lib1/.:/home/jklwang/Algoapi_Linux_lib1/cmake-build-debug -lalgoapi libalgospi.so -lcurlpp 

@@ -1,0 +1,5 @@
+1.Algoapi.dll 放在项目exe文件的目录下。
+
+2.其余文件全部放在项目主目录下，项目分别添加所有头文件和所有源文件，资源文件添加Algoapi.lib。
+
+3.源文件中AlgospiSimple.cpp为spi回调函数使用示例，main.cpp为api使用示例。

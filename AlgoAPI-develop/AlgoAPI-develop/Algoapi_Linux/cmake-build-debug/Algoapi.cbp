@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Algoapi"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/VickuGu/Desktop/AlgoAPI-develop/AlgoAPI-develop/Algoapi_Linux/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algoapi">
+				<Option output="C:/Users/VickuGu/Desktop/AlgoAPI-develop/AlgoAPI-develop/Algoapi_Linux/cmake-build-debug/algoapi.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/VickuGu/Desktop/AlgoAPI-develop/AlgoAPI-develop/Algoapi_Linux/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="C:/local/boost_1_68_0"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 algoapi"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algoapi/fast">
+				<Option output="C:/Users/VickuGu/Desktop/AlgoAPI-develop/AlgoAPI-develop/Algoapi_Linux/cmake-build-debug/algoapi.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/VickuGu/Desktop/AlgoAPI-develop/AlgoAPI-develop/Algoapi_Linux/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="C:/local/boost_1_68_0"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 algoapi/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algospi">
+				<Option output="C:/Users/VickuGu/Desktop/AlgoAPI-develop/AlgoAPI-develop/Algoapi_Linux/cmake-build-debug/algospi.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/VickuGu/Desktop/AlgoAPI-develop/AlgoAPI-develop/Algoapi_Linux/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="C:/local/boost_1_68_0"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 algospi"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algospi/fast">
+				<Option output="C:/Users/VickuGu/Desktop/AlgoAPI-develop/AlgoAPI-develop/Algoapi_Linux/cmake-build-debug/algospi.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/VickuGu/Desktop/AlgoAPI-develop/AlgoAPI-develop/Algoapi_Linux/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="C:/local/boost_1_68_0"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 algospi/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/VickuGu/Desktop/AlgoAPI-develop/AlgoAPI-develop/Algoapi_Linux/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="C:/Users/VickuGu/Desktop/AlgoAPI-develop/AlgoAPI-develop/Algoapi_Linux/cmake-build-debug/main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/VickuGu/Desktop/AlgoAPI-develop/AlgoAPI-develop/Algoapi_Linux/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="C:/local/boost_1_68_0"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 main"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="C:/Users/VickuGu/Desktop/AlgoAPI-develop/AlgoAPI-develop/Algoapi_Linux/cmake-build-debug/main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/VickuGu/Desktop/AlgoAPI-develop/AlgoAPI-develop/Algoapi_Linux/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="C:/local/boost_1_68_0"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 main/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/VickuGu/Desktop/AlgoAPI-develop/AlgoAPI-develop/Algoapi_Linux/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\VickuGu\Desktop\AlgoAPI-develop\AlgoAPI-develop\Algoapi_Linux\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/VickuGu/Desktop/AlgoAPI-develop/AlgoAPI-develop/Algoapi_Linux/AlgoapiOri.cpp">
+			<Option target="algoapi"/>
+		</Unit>
+		<Unit filename="C:/Users/VickuGu/Desktop/AlgoAPI-develop/AlgoAPI-develop/Algoapi_Linux/Algodatatype.cpp">
+			<Option target="algoapi"/>
+		</Unit>
+		<Unit filename="C:/Users/VickuGu/Desktop/AlgoAPI-develop/AlgoAPI-develop/Algoapi_Linux/AlgospiSimple.cpp">
+			<Option target="algospi"/>
+		</Unit>
+		<Unit filename="C:/Users/VickuGu/Desktop/AlgoAPI-develop/AlgoAPI-develop/Algoapi_Linux/include/libalgo.h">
+			<Option target="algoapi"/>
+		</Unit>
+		<Unit filename="C:/Users/VickuGu/Desktop/AlgoAPI-develop/AlgoAPI-develop/Algoapi_Linux/include/taskunit.h">
+			<Option target="algoapi"/>
+		</Unit>
+		<Unit filename="C:/Users/VickuGu/Desktop/AlgoAPI-develop/AlgoAPI-develop/Algoapi_Linux/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="C:/Users/VickuGu/Desktop/AlgoAPI-develop/AlgoAPI-develop/Algoapi_Linux/taskunit.cpp">
+			<Option target="algoapi"/>
+		</Unit>
+		<Unit filename="C:/Users/VickuGu/Desktop/AlgoAPI-develop/AlgoAPI-develop/Algoapi_Linux/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

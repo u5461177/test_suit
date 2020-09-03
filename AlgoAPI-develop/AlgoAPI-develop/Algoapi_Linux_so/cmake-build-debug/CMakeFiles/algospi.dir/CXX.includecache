@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+.././include/Algospi.h
+string
+-
+
+.././include/AlgospiSimple.h
+Algospi.h
+.././include/Algospi.h
+
+/home/jklwang/Algoapi_Linux_lib1/AlgospiSimple.cpp
+iostream
+-
+AlgospiSimple.h
+/home/jklwang/Algoapi_Linux_lib1/AlgospiSimple.h
+
