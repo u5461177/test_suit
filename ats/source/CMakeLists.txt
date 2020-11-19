@@ -1,0 +1,22 @@
+cmake_minimum_required(VERSION 3.12)
+project(ats)
+
+set(CMAKE_CXX_STANDARD 17)
+add_subdirectory(data_store)
+add_subdirectory(types)
+add_subdirectory(util)
+include_directories(../include /usr/local/opt/openssl/include)
+include_directories(../include/libtorch/include)
+
+link_directories(/usr/local/lib)
+if (UNIX)
+    if (APPLE)
+        link_directories(../lib/mac)
+    else ()
+        link_directories(../lib/linux)
+    endif (APPLE)
+endif (UNIX)
+file(GLOB SOURCE_FILES *.h *.cpp)
+add_library(ats SHARED ${SOURCE_FILES})
+target_link_libraries(ats data_store types util crypto glog cpp_redis tacopie restbed xtpquoteapi xtptraderapi torch)
+

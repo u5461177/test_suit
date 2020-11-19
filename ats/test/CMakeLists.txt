@@ -1,0 +1,20 @@
+cmake_minimum_required(VERSION 3.12)
+project(ats_test)
+
+add_subdirectory(googletest)
+include_directories(googletest/googletest/include)
+include_directories(googletest/googlemock/include)
+
+set(CMAKE_CXX_STANDARD 17)
+
+include_directories(../include ../source)
+if (UNIX)
+    if (APPLE)
+        link_directories(../lib/mac)
+    else ()
+        link_directories(../lib/linux)
+    endif (APPLE)
+endif (UNIX)
+file(GLOB SOURCE_FILES *.h *.cpp)
+add_executable(ats_test ${SOURCE_FILES})
+target_link_libraries(ats_test ats crypto cpp_redis tacopie restbed xtpquoteapi xtptraderapi gtest gtest_main)

@@ -1,0 +1,14 @@
+stages:
+   - algobuild
+algobuild:
+  script:
+    - echo "1qaz@WSX"| sudo -S docker rm -f algo-muse
+    - echo "1qaz@WSX" | sudo -S cp -r /home/gitlab-runner/builds/c8eae9aa/0/titan/ats /opt/algosys
+    - cd /opt/algosys
+    - echo "1qaz@WSX" | sudo -S /usr/local/anaconda3/bin/docker-compose up -d algo-muse
+    - sh /opt/algosys/after.sh
+  stage: algobuild
+  tags:
+    - algo-muse
+  only:
+    - dev_ats_ai@titan/ats
